@@ -13,9 +13,11 @@ public class Approach_2 {
     }
 }
 
-// StringBuilder: We use StringBuilder because it is mutable, unlike String, which is immutable. This makes reversing the string more efficient.
+// StringBuilder: We use StringBuilder because it is mutable, unlike String, which is immutable.
+// In other words, a modifiable succession of characters. This will reverse the string more efficient.
 // reverse(): This method of StringBuilder directly reverses the string.
 // toString(): Converts the StringBuilder back into a String.
 
 // The StringBuilder solution has O(n) time complexity, as it modifies the string in-place without
 // creating new objects repeatedly.
+// O(n), where n is the length of the string, since the reverse operation is linear.
