@@ -4,10 +4,11 @@ public class Approach_1 {
     public static void main(String[] args) {
 
         String forward = "A man, a plan, a canal, panama";
-        method(forward);
+        checkPalindrome(forward);
     }
 
-    public static void method(String forward) {
+    public static void checkPalindrome(String forward) {
+
         // Remove non-alphanumeric characters and convert to lowercase
         String sanitized = forward.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 

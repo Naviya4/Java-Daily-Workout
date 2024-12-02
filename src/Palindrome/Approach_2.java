@@ -9,6 +9,7 @@ public class Approach_2 {
     }
 
     public static boolean isPalindrome(String str) {
+
         // Remove non-alphanumeric characters and convert to lowercase
         String cleaned = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 
@@ -45,4 +46,4 @@ public class Approach_2 {
 // Cleaning and checking both take linear time.
 // Overall Time Complexity: O(n + m) = O(n).
 
-//Even though both approach has same time complexities, approach_2 is ideal as it stops early if a mismatch is found.
+// Even though both approach has same time complexities, approach_2 is ideal as it stops early if a mismatch is found.
