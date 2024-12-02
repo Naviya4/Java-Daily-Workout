@@ -21,4 +21,3 @@ public class Approach_User_Input {
         System.out.println("Is palindrome? " + result);
     }
 }
-

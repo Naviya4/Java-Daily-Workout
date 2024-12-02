@@ -2,12 +2,14 @@ package Reverse_String;
 
 public class Approach_2 {
     public static void main(String[] args) {
+
         String input = "hello";
         String reversed = reverseString(input);
         System.out.println("Reversed String: " + reversed);
     }
 
     public static String reverseString(String str) {
+
         StringBuilder reversed = new StringBuilder(str);
         return reversed.reverse().toString();
     }
