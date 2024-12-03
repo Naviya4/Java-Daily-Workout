@@ -30,3 +30,18 @@ public class Approach_1 {
         return '-'; // If no non-repeated character is found
     }
 }
+
+// Outer Loop:
+//      Iterates over each character.
+
+// Inner Loop:
+//      Compares the current character with every other character (i != j ensures you don’t compare the character with itself).
+
+// Boolean Flag:
+//      Tracks whether the character is repeated; if not, it returns the character as soon as it finds the first non-repeated one.
+
+// Default Return:
+//      Returns '-' if no non-repeated character is found.
+
+// Time Complexity:
+//      O(n²) because of the nested loops.
