@@ -1,5 +1,7 @@
 package Palindrome;
 
+// A string is a palindrome if it reads the same forward and backward (ignoring spaces, punctuation, and case).
+
 public class Approach_1 {
     public static void main(String[] args) {
 
