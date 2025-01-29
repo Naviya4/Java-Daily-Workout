@@ -7,7 +7,7 @@ public class Approach_1 {
         String reverse = "";
 
         for (int i = 0; i < initial.length(); i++) {
-            reverse = initial.charAt(i) + initial;
+            reverse = initial.charAt(i) + reverse;
         }
         System.out.println(reverse);
     }
